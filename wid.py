@@ -397,7 +397,7 @@ def main():
 
     # Sidebar configuration
     st.sidebar.header("⚙️ Configuration")
-    api_key = "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"
+    api_key = "gsk_BtXDZxUzyUmylzA8Nqc8WGdyb3FYdcxQD5tkU5Gn6pOXQi3nU9M0s"
 
     complexity_level = st.sidebar.selectbox(
         "Target Audience Level",
