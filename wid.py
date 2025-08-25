@@ -12,7 +12,7 @@ from datetime import datetime
 import json
 
 st.set_page_config(
-    page_title="SimpleTech",
+    page_title="SimpleTech ",
     page_icon="🤖",
     layout="wide"
 )
@@ -397,7 +397,7 @@ def main():
 
     # Sidebar configuration
     st.sidebar.header("⚙️ Configuration")
-    api_key = "gsk_BtXDZxUzyUmylzA8Nqc8WGdyb3FYdcxQD5tkU5Gn6pOXQi3nU9M0s"
+    api_key = st.secrets["GROQ_API_KEY"]
 
     complexity_level = st.sidebar.selectbox(
         "Target Audience Level",
